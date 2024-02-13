@@ -7,8 +7,8 @@ import org.junit.jupiter.api.Test;
 public class BasicJunitTest {
 	int a=2;
 	@Test
-	public void loadContext() {
-		System.out.println("context loaded");
+	public void basicTesting() {
+		System.out.println("Basic testing");
 		assertEquals(2, a);
 	}
 

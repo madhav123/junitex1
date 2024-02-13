@@ -7,7 +7,9 @@ import java.util.Iterator;
 
 import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.TestFactory;
-
+/*
+ * @TestFactory – denotes a method that's a test factory for dynamic tests
+ */
 public class DynamicTestEx {
 	@TestFactory
 	Iterator<DynamicTest> dynamicTestsWithIterator() {
